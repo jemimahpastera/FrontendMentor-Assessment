@@ -1,76 +1,77 @@
-      /* Body */
-      body {
-        background-color: #f2ebe3;
-        font-size: 14px !important;
-        font-family: "Montserrat", sans-serif !important;
-        line-height: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px !important;
-        color: #6c7289;
-      }
+/* Body */
+body {
+  background-color: #f2ebe3;
+  font-size: 14px !important;
+  font-family: "Montserrat", sans-serif !important;
+  line-height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #6c7289;
+  min-height: 100vh !important;
+}
 
-      /* Heading */
-      h3 {
-        color: #1c232b;
-        font-family: "Fraunces", serif;
-        padding-right: 40px;
-        line-height: 30px;
-      }
-      h6 {
-        letter-spacing: 7px;
-        text-transform: uppercase;
-        font-size: 14px;
-      }
+/* Heading */
+h3 {
+  color: #1c232b;
+  font-family: "Fraunces", serif;
+  padding-right: 40px;
+  line-height: 30px;
+}
+h6 {
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
 
-      /* Card */
-      .card {
-        background-color: white !important;
-        border-radius: 10px;
-        overflow: hidden;
-        outline: none;
-        border: none;
-        width: 650px;
-        height: auto;
-      }
-      .card-body {
-        padding: 20px 50px 20px 40px;
-      }
-      .spacing {
-        margin: 20px 0px;
-      }
+/* Card */
+.card {
+  background-color: white !important;
+  border-radius: 10px;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  width: 650px;
+  height: auto;
+}
+.card-body {
+  padding: 20px 50px 20px 40px;
+}
+.spacing {
+  margin: 20px 0px;
+}
 
-      /* Button */
-      button {
-        padding: 15px;
-        background-color: #3c8067;
-        color: #ffffff;
-        border-radius: 10px;
-        text-align: center;
-        outline: none;
-        border: none;
-        width: 100%;
-        font-weight: 700;
-        letter-spacing: 0.3px;
-      }
-      button:hover {
-        background-color: #244d3e;
-      }
-      button span {
-        margin: 0px 20px 0px 0px;
-      }
+/* Button */
+button {
+  padding: 15px;
+  background-color: #3c8067;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+button:hover {
+  background-color: #244d3e;
+}
+button span {
+  margin: 0px 20px 0px 0px;
+}
 
-      /* Price */
-      .price h3,
-      .price p {
-        display: inline-block;
-      }
-      .price h3 {
-        color: #3c8067;
-        margin-right: -15px;
-      }
-      .price p {
-        text-decoration: line-through;
-        vertical-align: middle;
-      }
+/* Price */
+.price h3,
+.price p {
+  display: inline-block;
+}
+.price h3 {
+  color: #3c8067;
+  margin-right: -15px;
+}
+.price p {
+  text-decoration: line-through;
+  vertical-align: middle;
+}
